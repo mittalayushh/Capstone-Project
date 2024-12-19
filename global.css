@@ -79,9 +79,6 @@ body {
 }
 .divimg img{
     width: 100%;
-    /* height: auto;
-    border: 1px 0px 0px 0px;
-    opacity: 0px; */
 }
 .projecttext {
     font-family: 'Sen', sans-serif;
@@ -153,16 +150,23 @@ body {
     border-radius: 10px;
     border: none;
 }
-/* .inputbox input[type="email"]{
-
-} */
-
+.inputbox {
+    display: flex;
+    gap:16px;
+}
+.inputbox input[type="email"]{
+    padding:18px;
+    font-size: 20px;
+}
 .Subscribe {
     height: 55px;
     width:150px;
     background-color: #CD3799;
     color:white;
     border-radius: 6px;
+    border:none;
+    font-size: 24px;
+
 
 }
 .socialbox{
@@ -180,6 +184,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin:0px 18px;
+    font-size:28px ;
+    padding-bottom:none;
 }
 .copyright {
     letter-spacing: -0.01em;
@@ -191,10 +197,8 @@ body {
     border-radius: 6px;
     height: 40px;
     width:120px;
-    /* opacity: 0.8; */
     background-color: #F9F5FA;
     font-family: 'DM Mono', monospace;
-    border:0.5px solid black;
 }
 /* Responsive styles */
 @media (max-width: 768px) {
