@@ -1,4 +1,4 @@
-  *{
+*{
     box-sizing: border-box;
     color:#421934;
     text-decoration: none;
@@ -326,4 +326,11 @@ body {
         margin-top: 20px;
         font-size: 14px;
     }
+}
+.mainimg{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.mainimg:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgb(221, 176, 95);
 }
