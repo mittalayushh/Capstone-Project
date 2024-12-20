@@ -334,3 +334,9 @@ body {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgb(221, 176, 95);
 }
+.divimg img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.divimg img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgb(211, 96, 96);
