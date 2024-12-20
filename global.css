@@ -172,6 +172,7 @@ body {
     border:none;
     font-size: 24px;
     font-family: "DM Mono", sans-serif;
+    cursor: pointer;
 
 
 }
@@ -326,6 +327,10 @@ body {
         margin-top: 20px;
         font-size: 14px;
     }
+    .social img{
+        width: 40px;
+        position: relative;
+        height: 40px;}
 }
 .mainimg{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
